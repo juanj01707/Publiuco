@@ -1,5 +1,8 @@
 package co.edu.uco.publiuco.dto;
 
-public class PaisDTO {
+import java.util.UUID;
 
+public class PaisDTO {
+	private UUID codigo;
+	private String nombre;
 }
