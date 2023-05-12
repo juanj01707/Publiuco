@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>co.edu.uco.publiuco</groupId>
-  <artifactId>PubliucoDTO</artifactId>
+  <artifactId>PubliucoCrossCutting</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>PubliucoDTO</name>
-  <description>com´ponente que ofrece los objetos de tranferencia de datos para poder intercambiar informacion entre componentes de API y componentes service
+  <name>PubliucoCrossCutting</name>
+  <description>Componente  que ofrece caracteristicas aspectuales que pueden ser utilizadas 
 </description>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -18,16 +18,11 @@
       </plugin>
     </plugins>
   </build>
-  <dependencies>
+   <dependencies>
 	  	<dependency>
-			<groupId>co.edu.uco.publiuco</groupId>
- 			<artifactId>PubliucoCrossCutting</artifactId>
-  			<version>0.0.1-SNAPSHOT</version>
+			<groupId>co.edu.uco</groupId>
+			<artifactId>UcoCrossCutting</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-	  	<dependency>
-	  		<groupId>co.edu.uco.publiuco</groupId>
-	  		<artifactId>PubliucoApi</artifactId>
-	  		<version>0.0.1-SNAPSHOT</version>
-	  	</dependency>
   </dependencies>
 </project>
