@@ -1,0 +1,6 @@
+package co.edu.uco.publiuco.service.facade.ciudad;
+
+public interface RegistrarCiudadUseCaseFacade {
+	Use
+
+}

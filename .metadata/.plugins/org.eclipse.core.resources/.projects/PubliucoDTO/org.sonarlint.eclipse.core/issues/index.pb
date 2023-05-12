@@ -1,6 +1,4 @@
 
-]
--src/co/edu/uco/publiuco/dto/package-info.java,3\0\303eeb3cdaeaa206013b8708820884ef67ba2797
 X
 (src/co/edu/uco/publiuco/dto/PaisDTO.java,d\5\d516439a09a2e51dee4360cd129f04b882c3fb26
 `
