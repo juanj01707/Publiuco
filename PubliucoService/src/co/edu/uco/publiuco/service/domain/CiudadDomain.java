@@ -3,28 +3,31 @@ package co.edu.uco.publiuco.service.domain;
 import java.util.UUID;
 
 public class CiudadDomain {
+	
 	private UUID codigo;
 	private DepartamentoDomain departamento;
 	private String nombre;
 	
-	public UUID getCodigo() {
+	private UUID getCodigo() {
 		return codigo;
 	}
-	public DepartamentoDomain getDepartamento() {
+	private DepartamentoDomain getDepartamento() {
 		return departamento;
 	}
-	public String getNombre() {
+	private String getNombre() {
 		return nombre;
 	}
-	public void setCodigo(UUID codigo) {
+	private void setCodigo(UUID codigo) {
 		this.codigo = codigo;
 	}
-	public void setDepartamento(DepartamentoDomain departamento) {
+	private void setDepartamento(DepartamentoDomain departamento) {
 		this.departamento = departamento;
 	}
-	public void setNombre(String nombre) {
+	private void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+	
 	
 	
 	

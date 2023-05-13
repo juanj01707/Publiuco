@@ -1,6 +1,9 @@
 package co.edu.uco.publiuco.service.facade.ciudad;
 
-public interface RegistrarCiudadUseCaseFacade {
-	Use
+import co.edu.uco.publiuco.dto.CiudadDTO;
+import co.edu.uco.publiuco.service.facade.UseCaseFacade;
 
+public interface RegistrarCiudadUseCaseFacade extends
+	UseCaseFacade<CiudadDTO>{
+	
 }

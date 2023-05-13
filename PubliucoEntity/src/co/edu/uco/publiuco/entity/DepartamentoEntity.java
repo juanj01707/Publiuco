@@ -8,7 +8,9 @@ import lombok.NoArgsConstructor;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.table;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 
 
 @Data
@@ -20,12 +22,11 @@ public class DepartamentoEntity {
 	
 	
 	@Id
-	@Column (name = "codigo")
 	private UUID codigo;
 	@ManyToOne
 	@JoinColumn(name = "pais")
 	private PaisEntity pais;
-	@Column (name = "nombre")
+	
 	private String nombre;
 
 }

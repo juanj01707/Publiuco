@@ -8,14 +8,14 @@ import lombok.NoArgsConstructor;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.table;
+import jakarta.persistence.Table;
+
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
 @Table(name = "pais")
-@Document
 public class PaisEntity {
 	
 	@Id

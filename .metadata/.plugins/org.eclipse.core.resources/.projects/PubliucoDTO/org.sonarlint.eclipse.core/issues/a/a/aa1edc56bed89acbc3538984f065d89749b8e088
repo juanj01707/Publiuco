@@ -1,4 +1,10 @@
 
-m
-java:S2094"BRemove this empty class, write its code or make it an "interface".(±¹É¡H7RMINORZ
+`
+java:S1068"(Remove this unused "pais" private field.(Ûİ¯èşÿÿÿÿ8â–—1H½RMAJORZ
+CODE_SMELL
+b
+java:S1068	"*Remove this unused "nombre" private field.(µÿï„ùÿÿÿÿ8â–—1H¿RMAJORZ
+CODE_SMELL
+b
+java:S1068"*Remove this unused "codigo" private field.(ûõÈÂÿÿÿÿÿ8â–—1H»RMAJORZ
 CODE_SMELL
